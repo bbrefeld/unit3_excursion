@@ -1,0 +1,42 @@
+/* multiple selectors */
+h1, h2, p {
+  font-family: Verdana, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+/* individual selector */
+body {
+  background-color: black;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 42px;
+  font-weight: 300;
+}
+
+p {
+  font-size: 21px;
+  color: gray;
+}
+
+/* parent child selectors */
+p a {
+  font-size: 16px;
+  color: aquamarine;
+}
+
+footer p {
+  color: gray;
+  text-align: right;
+}
+
+#announcement img {
+  margin-top: 1em;
+}
